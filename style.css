@@ -1,0 +1,263 @@
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+button{
+    width: 220px;
+    padding: 5%;
+}
+
+.icon{
+    width: 300px;
+    display: flex;
+
+}
+.one{
+    background-color:green;
+    border-radius: 5px;
+    margin-left: 50% ;
+    height: 100%;
+
+}
+
+.two{
+    margin-left: 5%;
+    background-color: none;
+    border-radius: 5px;
+    height: 100%;
+    display: inline;
+}
+
+.view{
+    padding-left: 90%;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.free{
+    width: 250px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.log{
+    height: 100px;
+    width: 10px;
+}
+    
+    
+.product1,.product2{
+    text-align: center;
+    padding: 10px;
+    
+}
+.firstimage{
+    margin: 0%;
+    margin-top: none;
+}
+.secondword{
+    text-align: center;
+
+}
+.ione{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+.acne{
+    text-align: center;
+}
+figure{
+    display: inline-block;
+
+}
+.mar{
+    text-align: center;
+}
+.mars{
+    text-align: center;
+}
+.small{
+    width: 50px;
+    height: 50px;
+}
+
+.log{
+    width: 10px;
+    height: 10px;
+}
+
+.lar{
+    width: 220px;
+}
+
+.boxs{
+    border-width: 1px;
+    border-color:gray;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 5px;
+    width: 220px;
+    margin: 10px;
+}
+
+/* button{
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size:17px;
+
+} */
+
+.boxs > h4, h6,p{
+    padding-left: 10px;
+}
+
+.Bestseller{
+    height: 20px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+}
+.a{
+    margin-top: 20px;
+}
+.b{
+    margin-top: 15px;
+    height: 40px;
+    width:40px;
+}
+.c{
+    margin-top: 20px;
+}
+.boxs > button{
+    background-color: green;
+    border: none;
+}
+.e{
+    width: 100vw;
+}
+
+.button-box {
+display: inline-block;
+    width: max-content;
+    background-color: white;
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin: 0.5rem 0.5rem 0.5rem 0px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.whole{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 15px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.part img{
+    width: 650px;
+    vertical-align: middle;
+}
+    
+.whole1{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 20px;
+}
+
+.part1 img{
+    width: 100px;
+    vertical-align: middle;
+}
+.whole2{
+    width: 100vw;
+    margin-left: 0px;
+}
+.part2{
+    height: auto;
+    background-image: url(https://images.thedermaco.com/promotional/BI-Background%20Right.png);
+    margin-bottom: 15px;
+    background-color: rgb(231, 255, 251);
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.inner1{
+    width: 48%;
+    text-align: right;
+    margin-top: auto;
+}
+.inner1 img{
+    width: 100%;
+    height:100%;
+    margin: auto;
+    border-radius: 5px;
+    margin-right: 50%;
+}
+
+.inner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    min-height: 300px;
+    border-radius: 5px 5px 5px 0px;
+    z-index: 1;
+    margin-left: -50px;
+    margin-right: 0px;
+    background: green;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: auto;
+    padding: 0px 60px 0px 45px;
+}
+
+.inner3{
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+}
+.inner4{
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    padding-right: 20px;
+    color: white
+}
+.inner5
+{
+    color: black;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.gg{
+    white-space: nowrap;
+    padding: 0px 80px;
+    margin-left: 7%;
+}
+
+
