@@ -105,14 +105,14 @@ figure{
     margin: 10px;
 }
 
-/* button{
+ button{
     background-color: green;
     border: none;
     color: white;
     font-weight: bold;
     font-size:17px;
 
-} */
+} 
 
 .boxs > h4, h6,p{
     padding-left: 10px;
@@ -145,14 +145,13 @@ figure{
     width: 100vw;
 }
 
-.button-box {
+.button-box1 {
 display: inline-block;
     width: max-content;
-    background-color: white;
-    color: rgb(112, 112, 112);
+    background-color: green;
+    color: white;
     font-size: 14px;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
     border: 1px solid rgb(224, 224, 224);
     border-radius: 6px;
     padding: 8px 16px;
@@ -161,7 +160,21 @@ display: inline-block;
     cursor: pointer;
 
 }
-
+.button-box2 {
+    display: inline-block;
+        width: max-content;
+        background-color: white;
+        color: rgb(112, 112, 112);
+        font-size: 14px;
+        font-weight: 400;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 6px;
+        padding: 8px 16px;
+        margin: 0.5rem 0.5rem 0.5rem 0px;
+        text-align: center;
+        cursor: pointer;
+    
+    }
 
 .whole{
     display: grid;
@@ -261,3 +274,7 @@ display: inline-block;
 }
 
 
+.d{
+    text-align: left;
+    margin-left: 13%;
+}
